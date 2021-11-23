@@ -46,6 +46,8 @@
 		 background-position: -200% 51%;
 	}
 }
+
+
  #desktop {
 	 background: url('images/name2.png') no-repeat 500px center / 1100px;
 	 background-position:center; 
@@ -53,6 +55,9 @@
 	 height: 100vh;
 	 overflow: hidden;
 }
+
+
+
  #toolbar {
 	 background: #c0c0c0;
 	 height: 40px;
@@ -170,6 +175,7 @@
 	 font-size: 20px;
 	 padding: 5px 10px;
 }
+
  .desktop-icons .desktop-icon {
 	 font-family: Kamerik205W00-Bold;
 	 src: url('fonts/Kamerik205W00Bold.tff');
@@ -184,9 +190,9 @@
 	 padding-top: 100px;
 	 padding-bottom: 20px;
 	 margin: 30px;
-	 background-size:contain;
-	 
+	 background-size:contain; 
 }
+
  .desktop-icons-two .desktop-icon-two {
 	 font-family: Kamerik205W00-Bold;
 	 src: url('fonts/Kamerik205W00Bold.tff');
@@ -203,20 +209,21 @@
 	 margin-right:30px;
 	 margin-top: 30px;
 	 padding-bottom: 20px;
-	 
 	 background-size:contain;
 }
+
  .desktop-icons .desktop-icon.disney {
 	 background-image: url('images/disney3.png');
 }
  .desktop-icons .desktop-icon.my-computer {
 	 background-image: url('images/water-bottle.png');
+	 background-size:100px;
 }
 
  .desktop-icons .desktop-icon.grey-poupon{
 	 background-image: url('images/pupon.png');
+	 background-size:95px;
 }
-
  .desktop-icons .desktop-icon.my-documents {
 	 background-image: url('images/kfc3.png');
 }
@@ -228,10 +235,202 @@
 }
  .desktop-icons-two .desktop-icon-two.about-me {
 	 background-image: url('images/aboutme3.png');
+	 background-size:90px;
+	 background-position-y: 10px;
+	 background-position-x: -2px;
 }
  .desktop-icons-two .desktop-icon-two.side-projects {
 	 background-image: url('images/side-projects3.png');
+	 background-size:90px;
+	 background-position-y: 12px;
+	 background-position-x: 12px;
 }
+ .desktop-icons a {
+	text-decoration:none;color:black;
+ }
+ .desktop-icons-two a {
+	text-decoration: none;
+ }
+
+
+@media (max-height: 790px){
+
+
+}
+
+@media (max-width: 980px){
+
+	br {
+        display: none;
+    }
+
+	/* BACKGROUND IMAGE */
+	#desktop {
+		background: url('images/name2.png') no-repeat 500px center / 1600px;
+		background-position-x: 54%;
+		background-position-y: -220px;
+		width: 100%;
+	    height: 100vh;
+	}
+	/* BODY ICONS BODY */
+    #desktop .row .column{
+		margin-top: 230px;
+		width: 100%;
+		height: 55%;
+		margin-left: 6%;
+	}
+
+	/* BODY ICON ICONS */
+	.desktop-icons .desktop-icon {
+		font-family: Kamerik205W00-Bold;
+		src: url('fonts/Kamerik205W00Bold.tff');
+		width: 300px;
+		height: 200px;
+		color: #271E1E;
+		text-align: center;
+		/* background: no-repeat center top; */
+		font-size: 40px;
+		font-style: bold;
+		border-left: 80px;
+		margin-top: 30px; 
+		padding-top: 160px;
+		padding-bottom: 30px;
+		/* background-size:contain; */
+		display: inline-block;
+		word-break: break-all;
+   	}
+
+    /* BOTTOM TOOLBAR */
+	#toolbar {
+		background: #c0c0c0;
+		height: 90px;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		border-top: 2px solid #fff;
+    }
+	/* BOTTOM TOOLBAR START BUTTON */
+    #toolbar .toolbar-start-menu .start-button {
+		background: url('images/home-icon.png') no-repeat 15px center / 45px;
+		padding-left: 60px;
+		padding-right: 5px;
+		height: 90px;
+		width: 210px;
+		margin: 2px 3px;
+		font-weight: bold;
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		font-size:40px;
+	}
+	
+	/* BOTTOM TOOLBAR TIME */
+	#toolbar .toolbar-right {
+		float: right;
+		margin: 2px 3px;
+		height: 90px;
+		width: 210px;
+		border: 2px solid #7c7c7c;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+   }
+
+    #toolbar .toolbar-right .time {
+	 font-size: 43px;
+	 padding: 15px 10px;
+	}
+
+	/* BOTTOM TOOLBAR CENTER */
+	#toolbar .toolbar-righttwo {
+		float: bottom;
+		margin: 18px 18px;
+		height: 90px;
+		text-align:center;
+		font-size: 40px;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+   }
+
+   .desktop-icons .desktop-icon.disney {
+	background-image: url('images/disney3.png');
+	background-size: 180px;
+	width: 320px;
+	vertical-align: top;
+	background-position-y: -5px;
+	}
+	.desktop-icons .desktop-icon.my-computer {
+		background-image: url('images/water-bottle.png');
+	 	background-size:180px;
+		vertical-align: top;
+		padding-top: 210px;
+		background-position-y: 30px;
+		width: 320px;
+	}
+	.desktop-icons .desktop-icon.grey-poupon{
+		background-image: url('images/pupon.png');
+		background-size: 180px;
+		vertical-align: top;
+		margin-top: 80px;
+		background-position-y: -10px;
+	}
+	.desktop-icons .desktop-icon.my-documents {
+		background-image: none;
+	}
+	.desktop-icons .desktop-icon.network {
+		background-image: url('images/wvd3.png');
+		background-size: 200px;
+		background-position-y: -28px;
+	}
+	.desktop-icons .desktop-icon.trash-empty {
+		background-image: none;
+	}
+
+
+	/** BOTTOM ICONS **/
+	.desktop-icons-two{
+		padding-left: 22%;
+		margin-top: 50px;
+	}
+
+	.desktop-icons-two .desktop-icon-two {
+		font-family: Kamerik205W00-Bold;
+		src: url('fonts/Kamerik205W00Bold.tff');
+		width: 200px;
+		height: 10px;
+		color: #271E1E;
+		text-align: center;
+		/* float: right; */
+		background: no-repeat center top;
+		font-size: 40px;
+		font-style: bold;
+		padding-top: 100px;
+		margin-left:auto;
+		margin-right:30px;
+		margin-top: 30px;
+		padding-bottom: 20px;
+		display: inline;
+   }
+
+   .desktop-icons-two .desktop-icon-two.about-me {
+	background-image: url('images/aboutme3.png');
+	background-size:150px;
+	padding-top: 150px;
+	background-position-y: 10px;
+	background-position-x: -2px;
+	}
+	.desktop-icons-two .desktop-icon-two.side-projects {
+	background-image: url('images/side-projects3.png');
+	background-size:150px;
+	padding-top: 150px;
+	background-position-y: 12px;
+	background-position-x: 34px;
+	margin-left: 80px;
+	}
+}
+
+
+
 
  .window {
 	 border: 2px solid #7c7c7c;
