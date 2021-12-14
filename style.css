@@ -193,6 +193,17 @@
 	 background-size:contain; 
 }
 
+  @media (max-height: 722px){
+	.desktop-icons .desktop-icon {
+		height: 60px;
+		margin-top: 20px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+		padding-bottom: 0px;
+	}
+  }
+
  .desktop-icons-two .desktop-icon-two {
 	 font-family: Kamerik205W00-Bold;
 	 src: url('fonts/Kamerik205W00Bold.tff');
@@ -300,6 +311,8 @@
 		word-break: break-all;
    	}
 
+    
+	
     /* BOTTOM TOOLBAR */
 	#toolbar {
 		background: #c0c0c0;
