@@ -211,7 +211,9 @@
  .desktop-icons .desktop-icon.my-computer {
 	 background-image: url('images/water-bottle.png');
 }
-
+.desktop-icons .desktop-icon.sj {
+	background-image: url('images/disney3.png');
+}
  .desktop-icons .desktop-icon.grey-poupon{
 	 background-image: url('images/pupon.png');
 }
