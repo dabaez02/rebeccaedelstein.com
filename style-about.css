@@ -371,6 +371,11 @@
  .window .window-wrapper {
 	 padding: 10px;
 }
+
+.window .window-wrapper .title-text-welcome {
+	font-size: 53px;
+}
+
  .window .window-wrapper fieldset {
 	 border: 1px solid #7c7c7c;
 	 padding: 10px;
@@ -440,3 +445,182 @@
 	height: 20px;
 	
 }
+
+#text20 {
+	width: 625px;
+	height:410px;
+	background-color: FEEAFA;
+	padding:20px;
+	font-family:'MS Sans Serif';
+	font-size:16px;
+	background-image: url('images/didyouknow.png');
+	background-repeat:no-repeat;
+	background-size:200px;
+}
+
+.window-content .field-row-stacked{
+	margin-top: 10px;
+}
+
+
+@media (max-width: 980px){
+
+	.window{
+		max-width: 780px;
+		height: 800px;
+	}
+
+	.window-content .field-row-stacked{
+		width: 780px;
+		margin-top: 0px;
+	}
+
+	#desktop-about-me .row .column{
+		float: none;
+		margin-left: 10%;
+	}
+	
+	.window .window-toolbar .window-title{
+		font-size: 30px;
+	}
+
+	.window .window-wrapper .title-text-welcome {
+		font-size: 45px;
+	}
+	
+	#text20 {
+		width: 760px;
+		height:680px;
+		background-color: FEEAFA;
+		padding-left: 20px;
+		padding-top: 0;
+		padding-right: 20px;
+		font-family:'MS Sans Serif';
+		font-size:14px;
+		background-image: url('images/didyouknow.png');
+		background-repeat:no-repeat;
+		background-size:336px;
+	}
+
+	.window .windows-wrapper {
+		padding-bottom: 0px;
+	}
+
+	.window .window-actions .window-action-button {
+		font-size: 25px;
+		margin-right: 15px;
+		border: 1px solid #131313;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		background: #c0c0c0;
+		width: 180px;
+		height: 70px;
+		text-align: center;
+		float: right;
+		margin-left: 5px;
+		margin-top: 10px;
+   }
+	
+	.window .window-toolbar-two .window-title{
+		font-size: 35px;
+	}
+	
+	.window .window-toolbar-two .bar-name select{
+		height: 45px;
+		font-size: 35px;
+	}
+	
+	.window .window-buttons {
+		position: absolute;
+		right: 2px;
+		top: 2px;
+	}
+	.window .window-buttons .window-button {
+		background: no-repeat center #ccc;
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		height: 55px;
+		width: 55px;
+		float: right;
+		margin-left: 2px;
+	}
+	
+	.window .window-buttons .window-button.close {
+		background-image: url(https://win98icons.alexmeub.com/images/close-icon.png);
+		background-size: 30px;
+	
+	}
+	.window .window-buttons .window-button.help {
+		background-image: url(https://win98icons.alexmeub.com/images/question-icon.png);
+		background-size: 30px;
+	}
+	
+	/* WINDOW BECKY */
+	.windowbecky {
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-bottom-color: #131313;
+		border-left-color: #fff;
+		background: #c0c0c0;
+		width: 90%;
+		resize: both;
+		text-align: right;
+		margin-top: 180%;
+		margin-left: 30%;
+		width:500px;
+   }
+
+
+	/* BOTTOM TOOLBAR */
+	#toolbar {
+		background: #c0c0c0;
+		height: 90px;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		border-top: 2px solid #fff;
+	}
+	/* BOTTOM TOOLBAR START BUTTON */
+	#toolbar .toolbar-start-menu .start-button {
+		background: url('images/home-icon.png') no-repeat 15px center / 45px;
+		padding-left: 60px;
+		padding-right: 5px;
+		height: 90px;
+		width: 210px;
+		margin: 2px 3px;
+		font-weight: bold;
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		font-size:40px;
+	}
+	
+	/* BOTTOM TOOLBAR TIME */
+	#toolbar .toolbar-right {
+		float: right;
+		margin: 2px 3px;
+		height: 90px;
+		width: 210px;
+		border: 2px solid #7c7c7c;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+	}
+	
+	#toolbar .toolbar-right .time {
+	 font-size: 43px;
+	 padding: 15px 10px;
+	}
+	
+	/* BOTTOM TOOLBAR CENTER */
+	#toolbar .toolbar-righttwo {
+		float: bottom;
+		margin: 18px 18px;
+		height: 90px;
+		text-align:center;
+		font-size: 40px;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+	}
+	}

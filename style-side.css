@@ -369,3 +369,123 @@
   display: table;
   clear: both;
 }
+
+@media (max-width: 980px){
+
+
+	.window .window-toolbar {
+		background: #4d4254;
+		color: #fff;
+		padding: 4px;
+		font-size: 25px;
+		font-weight: bold;
+		padding-left: 30px;
+		height: 60px;
+	}
+	
+	.window .window-toolbar .window-title{
+		font-size: 45px;
+	}
+	
+	.window-toolbar-two {
+		background: #c0c0c0;
+		color: #000;
+		font-size: 45px;
+		height: 60px;
+		padding: 8px;
+		border: 2px solid #7c7c7c;
+		border-bottom-color: #131313;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		padding-left: 30px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	
+	.window .window-toolbar-two .window-title{
+		font-size: 35px;
+	}
+	
+	.window .window-toolbar-two .bar-name select{
+		height: 45px;
+		font-size: 35px;
+	}
+	
+	.window .window-buttons {
+		position: absolute;
+		right: 2px;
+		top: 2px;
+	}
+	.window .window-buttons .window-button {
+		background: no-repeat center #ccc;
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		height: 55px;
+		width: 55px;
+		float: right;
+		margin-left: 2px;
+	}
+	
+	.window .window-buttons .window-button.close {
+		background-image: url(https://win98icons.alexmeub.com/images/close-icon.png);
+		background-size: 30px;
+	
+	}
+	.window .window-buttons .window-button.help {
+		background-image: url(https://win98icons.alexmeub.com/images/question-icon.png);
+		background-size: 30px;
+	}
+	
+	/* BOTTOM TOOLBAR */
+	#toolbar {
+		background: #c0c0c0;
+		height: 90px;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		border-top: 2px solid #fff;
+	}
+	/* BOTTOM TOOLBAR START BUTTON */
+	#toolbar .toolbar-start-menu .start-button {
+		background: url('images/home-icon.png') no-repeat 15px center / 45px;
+		padding-left: 60px;
+		padding-right: 5px;
+		height: 90px;
+		width: 210px;
+		margin: 2px 3px;
+		font-weight: bold;
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		font-size:40px;
+	}
+	
+	/* BOTTOM TOOLBAR TIME */
+	#toolbar .toolbar-right {
+		float: right;
+		margin: 2px 3px;
+		height: 90px;
+		width: 210px;
+		border: 2px solid #7c7c7c;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+	}
+	
+	#toolbar .toolbar-right .time {
+	 font-size: 43px;
+	 padding: 15px 10px;
+	}
+	
+	/* BOTTOM TOOLBAR CENTER */
+	#toolbar .toolbar-righttwo {
+		float: bottom;
+		margin: 18px 18px;
+		height: 90px;
+		text-align:center;
+		font-size: 40px;
+		border-bottom-color: #fff;
+		border-right-color: #fff;
+	}
+	}

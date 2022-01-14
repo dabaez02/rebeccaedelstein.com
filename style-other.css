@@ -403,7 +403,7 @@
 	 border-top: none;
 }
  .window .window-wrapper {
-	 height:120%;
+	 height: 80%;
 	 background-color: #a094a9;
 	 padding: 10px;
 	 padding-bottom: 12%;
@@ -475,9 +475,18 @@
 .title-content p a{
 	color: white;
 }
+@media (max-height: 722px){
+	.window .window-wrapper {
+		height: 58%;
+	}
+	
+}
 
 @media (max-width: 980px){
 
+.window .window-wrapper {
+	height: 120%;
+}
 
 .window .window-toolbar {
 	background: #4d4254;
