@@ -475,7 +475,7 @@
 .title-content p a{
 	color: white;
 }
-@media (max-height: 722px){
+@media (max-height: 744px){
 	.window .window-wrapper {
 		height: 58%;
 	}
