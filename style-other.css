@@ -403,7 +403,7 @@
 	 border-top: none;
 }
  .window .window-wrapper {
-	 height: 80%;
+	 height: 75%;
 	 background-color: #a094a9;
 	 padding: 10px;
 	 padding-bottom: 12%;
@@ -477,7 +477,7 @@
 }
 @media (max-height: 744px){
 	.window .window-wrapper {
-		height: 54%;
+		height: 60%;
 	}
 	
 }
