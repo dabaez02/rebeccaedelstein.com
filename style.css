@@ -205,14 +205,15 @@
 	.desktop-icons .desktop-icon.sj {
 		background-image: url('images/sjv22.png');
 		background-size: 100px;
-		background-position-y: 30px;
-		padding-bottom: 30px;
+		background-position-y: 20px;
+		padding-bottom: 20px;
+		padding-top: 40px;
 		position: absolute;
 		top:0px;
 		left: 150px;
 	}
 	.desktop-icons .desktop-icon.my-computer {
-		background-image: url('images/water-bottle.png');
+		background-image: url('images/doordash.png');
 		background-size:100px;
 		padding-bottom: 30px;
 		position: absolute;
@@ -245,14 +246,16 @@
 	 padding-bottom: 30px;
 }
  .desktop-icons .desktop-icon.my-computer {
-	 background-image: url('images/water-bottle.png');
-	 background-size:100px;
-	 padding-bottom: 30px;
+	 background-image: url('images/doordash.png');
+	 background-position-y: 15px;
+	 background-size:80px;
+	 padding-bottom: 0;
+	 margin-top: 0;
 }
 .desktop-icons .desktop-icon.sj {
 	background-image: url('images/sjv22.png');
 	background-size:100px;
-	background-position-y: 30px;
+	padding-top: 90px;
 	padding-bottom: 30px;
 }
  .desktop-icons .desktop-icon.grey-poupon{
@@ -265,9 +268,13 @@
 	 padding-bottom: 30px;
 }
  .desktop-icons .desktop-icon.network {
-	 background-image: url('images/wvd3.png');
-	 padding-bottom: 40px;
+	 background-image: url('images/wvdfootball.png');
+	 background-position-y: 10px;
+	 background-size: 80px;
+	 padding-top: 90px;
+	 padding-bottom: 30px;
 }
+
  .desktop-icons .desktop-icon.trash-empty {
 	 background-image: url('images/target3.png');
 	 padding-bottom: 30px;
@@ -399,25 +406,25 @@
 	background-size: 180px;
 	width: 320px;
 	vertical-align: top;
-	background-position-y: -5px;
+	background-position-y: -10px;
+	padding-top: 180px;
 	}
 
 	.desktop-icons .desktop-icon.sj {
 		background-image: url('images/sjv22.png');
 		background-size:200px;
-		background-position-y: 80px;
+		background-position-y: 30px;
 		padding-bottom: 30px;
 		vertical-align: top;
 		margin-left: 30px; 
-		padding-top: 210px;
+		padding-top: 180px;
 	}
 
 	.desktop-icons .desktop-icon.my-computer {
-		background-image: url('images/water-bottle.png');
-	 	background-size:180px;
-		vertical-align: top;
-		padding-top: 210px;
-		background-position-y: 30px;
+		background-image: url('images/doordash.png');
+	 	background-size:160px;
+		padding-top: 180px;
+		background-position-y: 15px;
 		margin-left: 150px; 
 		width: 320px;
 	}
@@ -426,20 +433,24 @@
 		background-size: 180px;
 		vertical-align: top;
 		background-position-y: -10px;
+		padding-top: 180px;
 	}
 	.desktop-icons .desktop-icon.my-documents {
 		background-image: none;
 	}
 	.desktop-icons .desktop-icon.network {
-		background-image: url('images/wvd3.png');
-		background-size: 200px;
-		background-position-y: -28px;
+		background-image: url('images/wvdfootball.png');
+		background-position-y: -5px;
+		padding-top: 150px;
+		background-size: 150px;
 		margin-left: 40px; 
+		vertical-align: top;
+		width: 300px;
+		height: 250px;
 	}
 	.desktop-icons .desktop-icon.trash-empty {
 		background-image: none;
 	}
-
 
 	/** BOTTOM ICONS **/
 	.desktop-icons-two{
