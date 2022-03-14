@@ -207,7 +207,7 @@
 		background-size: 100px;
 		background-position-y: 20px;
 		padding-bottom: 20px;
-		padding-top: 40px;
+		padding-top: 80px;
 		position: absolute;
 		top:0px;
 		left: 150px;
@@ -256,12 +256,12 @@
 	background-image: url('images/sjv22.png');
 	background-size:100px;
 	padding-top: 70px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
  .desktop-icons .desktop-icon.grey-poupon{
 	 background-image: url('images/pupon.png');
 	 background-size:95px;
-	 padding-bottom: 30px;
+	 padding-bottom: 10px;
 }
  .desktop-icons .desktop-icon.my-documents {
 	 background-image: url('images/kfc3.png');
