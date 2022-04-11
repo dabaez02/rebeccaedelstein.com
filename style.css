@@ -2,7 +2,7 @@
 	 box-sizing: border-box;
 }
  body {
-	 background: #FEE2D4; 
+	 background: #f5d7ff; 
 	 cursor: url(http://www.rw-designer.com/cursor-download.php?id=90885), auto;
 	 font-family: 'MS Sans Serif';
 	 letter-spacing: 0.001em;
@@ -49,7 +49,7 @@
 
 
  #desktop {
-	 background: url('images/name2.png') no-repeat 500px center / 1100px;
+	 background: url('images/name2.png') no-repeat 500px center / 459px;
 	 background-position:center; 
 	 width: 100%;
 	 height: 100vh;
@@ -241,39 +241,63 @@
 	 background-size:contain;
 }
 
- .desktop-icons .desktop-icon.disney {
-	 background-image: url('images/disney3.png');
-	 padding-bottom: 30px;
+
+
+.desktop-icons .desktop-icon.my-computer {
+	background-image: url('images/doordash.png');
+	background-position-y: 15px;
+	background-size:80px;
+	padding-bottom: 0;
+	margin-top: 0;
 }
- .desktop-icons .desktop-icon.my-computer {
-	 background-image: url('images/doordash.png');
-	 background-position-y: 15px;
-	 background-size:80px;
-	 padding-bottom: 0;
-	 margin-top: 0;
+
+/* NEW */
+.desktop-icons .desktop-icon.dtgt {
+	background-image: url('images/dtgt_icon.png');
+	background-position-y: 10px;
 }
+
+.desktop-icons .desktop-icon.network {
+	background-image: url('images/wvdfootball.png');
+	background-position-y: 10px;
+	background-size: 80px;
+	padding-top: 90px;
+	padding-bottom: 30px;
+	margin-bottom: 45px;
+}
+
 .desktop-icons .desktop-icon.sj {
 	background-image: url('images/sjv22.png');
 	background-size:100px;
 	padding-top: 70px;
 	padding-bottom: 10px;
 }
- .desktop-icons .desktop-icon.grey-poupon{
-	 background-image: url('images/pupon.png');
-	 background-size:95px;
-	 padding-bottom: 10px;
+
+/* NEW */
+.desktop-icons .desktop-icon.spotify {
+	background-image: url('images/spotify.png');
+	background-position-y: 15px;
+	background-size:120px;
+	padding-bottom: 0;
+	margin-top: 0;
 }
+
+ .desktop-icons .desktop-icon.disney {
+	 background-image: url('images/disney3.png');
+	 padding-bottom: 20px;
+}
+
+.desktop-icons .desktop-icon.grey-poupon{
+	background-image: url('images/pupon.png');
+	background-size:95px;
+	padding-bottom: 10px;
+}
+
  .desktop-icons .desktop-icon.my-documents {
 	 background-image: url('images/kfc3.png');
 	 padding-bottom: 30px;
 }
- .desktop-icons .desktop-icon.network {
-	 background-image: url('images/wvdfootball.png');
-	 background-position-y: 10px;
-	 background-size: 80px;
-	 padding-top: 90px;
-	 padding-bottom: 30px;
-}
+
 
  .desktop-icons .desktop-icon.trash-empty {
 	 background-image: url('images/target3.png');
