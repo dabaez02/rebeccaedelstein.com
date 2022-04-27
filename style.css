@@ -334,11 +334,19 @@
         display: none;
     }
 
+	/* .column {
+		display: contents;
+	} */
+
+	/* #mobile-movement{
+		margin-top: 600px;
+	} */
+
 	/* BACKGROUND IMAGE */
 	#desktop {
-		background: url('images/name2.png') no-repeat 500px center / 1600px;
+		background: url('images/name2.png') no-repeat 500px center / 743px;
 		background-position-x: 54%;
-		background-position-y: -220px;
+		background-position-y: -10px;
 		width: 100%;
 	    height: 100vh;
 	}
@@ -425,6 +433,51 @@
 		border-right-color: #fff;
    }
 
+   .desktop-icons .desktop-icon.my-computer {
+	background-image: url('images/doordash.png');
+	background-size:160px;
+	padding-top: 180px;
+	background-position-y: 15px;
+	margin-left: 0px; 
+	width: 320px;
+	position: absolute;
+	top: 650;
+	left:0;
+    }
+
+	.desktop-icons .desktop-icon.dtgt {
+	background-image: url('images/dtgt_icon.png');
+	background-position-y: -15px;
+	position: absolute;
+	top: 640;
+	left:330;
+	}
+
+	.desktop-icons .desktop-icon.spotify {
+	background-image: url('images/spotify.png');
+	background-size:223px;
+	padding-top: 170px;
+	background-position-y: 15px;
+	margin-left: 120px; 
+	width: 320px;
+	position: absolute;
+	top: 660;
+	left:520;
+	}
+
+	.desktop-icons .desktop-icon.network {
+		background-image: url('images/wvdfootball.png');
+		background-position-y: -5px;
+		padding-top: 150px;
+		background-size: 150px;
+		vertical-align: top;
+		width: 300px;
+		height: 250px;
+		position: absolute;
+		top: 980;
+		left:10;
+	}
+
    .desktop-icons .desktop-icon.disney {
 	background-image: url('images/disney3.png');
 	background-size: 180px;
@@ -432,46 +485,29 @@
 	vertical-align: top;
 	background-position-y: -10px;
 	padding-top: 180px;
+	position: absolute;
+	top: 950;
+	left:320;
 	}
 
 	.desktop-icons .desktop-icon.sj {
 		background-image: url('images/sjv22.png');
-		background-size:200px;
-		background-position-y: 30px;
+		background-size:185px;
+		background-position-y: 40px;
 		padding-bottom: 30px;
 		vertical-align: top;
-		margin-left: 30px; 
 		padding-top: 180px;
+		position: absolute;
+		top: 950;
+		left:640;
 	}
 
-	.desktop-icons .desktop-icon.my-computer {
-		background-image: url('images/doordash.png');
-	 	background-size:160px;
-		padding-top: 180px;
-		background-position-y: 15px;
-		margin-left: 150px; 
-		width: 320px;
-	}
-	.desktop-icons .desktop-icon.grey-poupon{
-		background-image: url('images/pupon.png');
-		background-size: 180px;
-		vertical-align: top;
-		background-position-y: -10px;
-		padding-top: 180px;
-	}
+	
+
 	.desktop-icons .desktop-icon.my-documents {
 		background-image: none;
 	}
-	.desktop-icons .desktop-icon.network {
-		background-image: url('images/wvdfootball.png');
-		background-position-y: -5px;
-		padding-top: 150px;
-		background-size: 150px;
-		margin-left: 40px; 
-		vertical-align: top;
-		width: 300px;
-		height: 250px;
-	}
+	
 	.desktop-icons .desktop-icon.trash-empty {
 		background-image: none;
 	}
@@ -498,7 +534,6 @@
 		margin-right:30px;
 		margin-top: 30px;
 		padding-bottom: 20px;
-		display: inline;
    }
 
    .desktop-icons-two .desktop-icon-two.about-me {
@@ -507,6 +542,9 @@
 	padding-top: 150px;
 	background-position-y: 10px;
 	background-position-x: -2px;
+	position: absolute;
+	top: 78%;
+	left:280;
 	}
 	.desktop-icons-two .desktop-icon-two.side-projects {
 	background-image: url('images/side-projects3.png');
@@ -515,6 +553,9 @@
 	background-position-y: 12px;
 	background-position-x: 34px;
 	margin-left: 120px;
+	position: absolute;
+	top: 78%;
+	left:400;
 	}
 }
 
