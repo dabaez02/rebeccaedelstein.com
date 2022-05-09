@@ -195,32 +195,15 @@
 
   @media (max-height: 722px){
 	.desktop-icons .desktop-icon {
-		height: 60px;
+	
 		margin-top: 20px;
 		margin-left: 30px;
 		margin-right: 30px;
 		margin-bottom: 30px;
 		padding-bottom: 0px;
 	}
-	.desktop-icons .desktop-icon.sj {
-		background-image: url('images/sjv22.png');
-		background-size: 100px;
-		background-position-y: 20px;
-		padding-bottom: 20px;
-		padding-top: 90px !important;
-		position: absolute;
-		top:0px;
-		left: 150px;
-	}
-	.desktop-icons .desktop-icon.my-computer {
-		background-image: url('images/doordash.png');
-		background-size:100px;
-		padding-bottom: 30px;
-		position: absolute;
-		top:168px;
-		left: 150px;
+	
    }
-  }
 
  .desktop-icons-two .desktop-icon-two {
 	 font-family: Kamerik205W00-Bold;
