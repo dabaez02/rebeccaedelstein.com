@@ -233,10 +233,24 @@
 	 background: #c0c0c0;
 	 width: 90%;
 	 max-width: 650px;
-	 height: 600px;
+	 height: 517px;
 	 position: fixed;
 	 top: 28px;
 	 resize: both;
+}
+
+.windowtwo {
+	border: 2px solid #7c7c7c;
+	border-top-color: #fff;
+	border-bottom-color: #131313;
+	border-left-color: #fff;
+	background: #c0c0c0;
+	width: 90%;
+	max-width: 650px;
+	height: 517px;
+	position: fixed;
+	top: 28px;
+	resize: both;
 }
 
  .windowbecky {
@@ -272,6 +286,14 @@
 	
 }
 
+.windowtwo .window-toolbar {
+	background: #000080;
+	color: #fff;
+	padding: 4px;
+	font-weight: bold;
+   
+}
+
 
  .windowbecky .window-toolbar {
 	 
@@ -298,6 +320,12 @@
 	 position: absolute;
 	 right: 2px;
 	 top: 2px;
+}
+
+.windowtwo .window-buttons {
+	position: absolute;
+	right: 2px;
+	top: 2px;
 }
  .window .window-buttons .window-button {
 	 background: no-repeat center #ccc;
@@ -448,14 +476,14 @@
 
 #text20 {
 	width: 625px;
-	height:410px;
+	height:334px;
 	background-color: FEEAFA;
-	padding:20px;
+	padding:22px;
 	font-family:'MS Sans Serif';
 	font-size:16px;
 	background-image: url('images/didyouknow.png');
 	background-repeat:no-repeat;
-	background-size:200px;
+	background-size:171px;
 }
 
 .window-content .field-row-stacked{
