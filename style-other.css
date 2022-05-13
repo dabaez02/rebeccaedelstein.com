@@ -473,7 +473,7 @@
   clear: both;
 }
 .title-content p a{
-	color: white;
+	color: #2e2e2e;
 }
 @media (max-height: 744px){
 	.window .window-wrapper {
