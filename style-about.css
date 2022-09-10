@@ -491,11 +491,86 @@
 }
 
 
+#desktop-about-me{
+	visibility: visible;
+}
+#desktop-mobile{
+	display: none;
+}
+
 @media (max-width: 980px){
 
+	#desktop-about-me{
+		visibility:hidden;
+	}
+
+	#desktop-mobile{
+		display:block;
+	}
+
+	#desktop-mobile{
+		background: url(images/name2.png) no-repeat 500px center / 1100px;
+		background-position: center;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+	}
 	.window{
 		max-width: 780px;
 		height: 800px;
+	}
+
+	.window-mobile {
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-bottom-color: #131313;
+		border-left-color: #fff;
+		background: #c0c0c0;
+		width: 100%;
+		max-width: 2000px;
+		height: 1500px;
+		position: fixed;
+		/* top: 28px; */
+		resize: both;
+	}
+
+	.window-mobile .window-toolbar-mobile{
+    padding: 4px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    height: 60px;
+	}
+
+	.window-mobile .window-buttons-mobile {
+		position: absolute;
+		right: 2px;
+		top: 2px;
+	}
+
+	.window-mobile .window-buttons-mobile .window-button-mobile.close {
+		background-image: url(https://win98icons.alexmeub.com/images/close-icon.png);
+		background-size: 30px;
+	}
+
+	.window-mobile .window-buttons-mobile .window-button-mobile.help {
+		background-image: url(https://win98icons.alexmeub.com/images/question-icon.png);
+		background-size: 30px;
+	}
+
+	.window-mobile .window-buttons-mobile .window-button-mobile{
+		background: no-repeat center #ccc;
+		border: 2px solid #7c7c7c;
+		border-top-color: #fff;
+		border-left-color: #fff;
+		height: 55px;
+		width: 55px;
+		float: right;
+		margin-left: 2px;
+	}
+
+	.window-title-mobile{
+		font-size: 45px;
 	}
 
 	.window-content .field-row-stacked{
