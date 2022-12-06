@@ -257,6 +257,14 @@
 }
 
 /* NEW */
+.desktop-icons .desktop-icon.popeyes {
+	background-image: url('images/blackened_chicken.png');
+	background-position-y: 15px;
+	background-size:120px;
+	padding-bottom: 0;
+	margin-top: 0;
+}
+
 .desktop-icons .desktop-icon.spotify {
 	background-image: url('images/spotify.png');
 	background-position-y: 15px;
