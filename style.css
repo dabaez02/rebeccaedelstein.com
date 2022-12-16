@@ -273,6 +273,14 @@
 	margin-top: 0;
 }
 
+.desktop-icons .desktop-icon.lenovo {
+	background-image: url('images/lenovo.png');
+	background-position-y: 16px;
+	background-size:104px;
+	padding-bottom: 0;
+	margin-top: 0;
+}
+
  .desktop-icons .desktop-icon.disney {
 	 background-image: url('images/disney3.png');
 	 padding-bottom: 20px;
@@ -455,6 +463,19 @@
 	top: 660;
 	left:520;
 	}
+
+	.desktop-icons .desktop-icon.lenovo {
+		background-image: url('images/lenovo.png');
+		background-size:223px;
+		padding-top: 170px;
+		background-position-y: 15px;
+		margin-left: 120px; 
+		width: 320px;
+		position: absolute;
+		top: 660;
+		left:520;
+		}
+	
 
 	.desktop-icons .desktop-icon.network {
 		background-image: url('images/wvdfootball.png');
