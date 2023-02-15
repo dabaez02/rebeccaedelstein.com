@@ -432,6 +432,34 @@
 		border-right-color: #fff;
    }
 
+	/* Popeyes 1 / 1 st */
+	.desktop-icons .desktop-icon.popeyes {
+		background-image: url('images/blackened_chicken.png');
+		background-size:240px;
+		background-position-y: 30px;
+		padding-bottom: 30px;
+		vertical-align: top;
+		width: 154px;
+		padding-top: 180px;
+		position: absolute;
+		top: 650;
+		left:103;
+	}
+
+	/* Lenovo 1 / 2nd */
+	.desktop-icons .desktop-icon.lenovo {
+		background-image: url('images/lenovo.png');
+		background-size:210px;
+		padding-top: 170px;
+		background-position-y: 15px;
+		margin-left: 120px; 
+		width: 320px;
+		position: absolute;
+		top: 659;
+		left:229;
+		}
+
+    /* Door Dash 1 / 3rd */
    .desktop-icons .desktop-icon.my-computer {
 	background-image: url('images/doordash.png');
 	background-size:160px;
@@ -440,18 +468,19 @@
 	margin-left: 0px; 
 	width: 320px;
 	position: absolute;
-	top: 650;
-	left:0;
+	top: 651;
+	left:660;
     }
 
+	/* DTGT 2 / 1st */
 	.desktop-icons .desktop-icon.dtgt {
 	background-image: url('images/dtgt_icon.png');
 	background-position-y: -15px;
 	position: absolute;
-	top: 640;
-	left:330;
+	top: 961;
+	left:30;
 	}
-
+	/* Spotify 2 / 2nd */
 	.desktop-icons .desktop-icon.spotify {
 	background-image: url('images/spotify.png');
 	background-size:223px;
@@ -460,23 +489,11 @@
 	margin-left: 120px; 
 	width: 320px;
 	position: absolute;
-	top: 660;
-	left:520;
+	top: 980;
+	left:219;
 	}
-
-	.desktop-icons .desktop-icon.lenovo {
-		background-image: url('images/lenovo.png');
-		background-size:223px;
-		padding-top: 170px;
-		background-position-y: 15px;
-		margin-left: 120px; 
-		width: 320px;
-		position: absolute;
-		top: 660;
-		left:520;
-		}
 	
-
+	/* WVD 2 / 3rd */
 	.desktop-icons .desktop-icon.network {
 		background-image: url('images/wvdfootball.png');
 		background-position-y: -5px;
@@ -486,10 +503,11 @@
 		width: 300px;
 		height: 250px;
 		position: absolute;
-		top: 980;
-		left:10;
+		top: 970;
+		left:670;
 	}
 
+	/* Disney 3 / 1 st */
    .desktop-icons .desktop-icon.disney {
 	background-image: url('images/disney3.png');
 	background-size: 180px;
@@ -498,21 +516,13 @@
 	background-position-y: -10px;
 	padding-top: 180px;
 	position: absolute;
-	top: 950;
-	left:320;
+	top: 1250;
+	left:20;
 	}
 
-	.desktop-icons .desktop-icon.sj {
-		background-image: url('images/sjv22.png');
-		background-size:185px;
-		background-position-y: 40px;
-		padding-bottom: 30px;
-		vertical-align: top;
-		padding-top: 180px;
-		position: absolute;
-		top: 950;
-		left:640;
-	}
+	
+
+	
 
 	
 
